@@ -1,0 +1,22 @@
+{
+  "slug": "bill-of-lading",
+  "model": "anthropic/claude-3.5-sonnet",
+  "sessionCount": 100,
+  "messageCount": 380,
+  "estimatedTokens": 17023,
+  "executionTime": "33.7",
+  "timestamp": "2025-11-25T05:08:50.115Z",
+  "qualityCheck": {
+    "passed": true,
+    "errors": [],
+    "warnings": [
+      "文字数が少なすぎます（1736字 < 10,000字）",
+      "引用が少なすぎます（15件）。より多くの具体例を引用してください"
+    ],
+    "stats": {
+      "charCount": 1736,
+      "citationCount": 15,
+      "forbiddenPhrases": []
+    }
+  }
+}

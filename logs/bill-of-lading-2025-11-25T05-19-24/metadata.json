@@ -1,0 +1,29 @@
+{
+  "slug": "bill-of-lading",
+  "model": {
+    "key": "gemini-2.0-flash",
+    "name": "google/gemini-2.0-flash-exp:free",
+    "maxContextTokens": 1000000,
+    "maxOutputTokens": 64000
+  },
+  "sessionCount": 896,
+  "messageCount": 6885,
+  "estimatedTokens": 256534,
+  "totalTokens": 320534,
+  "executionTime": "52.8",
+  "timestamp": "2025-11-25T05:19:24.740Z",
+  "qualityCheck": {
+    "passed": false,
+    "errors": [
+      "禁止された数量表現が含まれています: 「多くの参加者」"
+    ],
+    "warnings": [],
+    "stats": {
+      "charCount": 13488,
+      "citationCount": 257,
+      "forbiddenPhrases": [
+        "多くの参加者"
+      ]
+    }
+  }
+}

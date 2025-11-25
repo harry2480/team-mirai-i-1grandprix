@@ -1,0 +1,33 @@
+{
+  "slug": "bill-of-lading",
+  "model": {
+    "key": "claude-3.5-sonnet",
+    "name": "anthropic/claude-3.5-sonnet",
+    "maxContextTokens": 200000,
+    "maxOutputTokens": 16000
+  },
+  "sessionCount": 100,
+  "messageCount": 380,
+  "estimatedTokens": 17364,
+  "totalTokens": 33364,
+  "executionTime": "28.8",
+  "timestamp": "2025-11-25T05:40:19.406Z",
+  "deepResearch": {
+    "title": "船荷証券の電子化に関する国際動向調査",
+    "timestamp": "2025-01-25T10:00:00Z",
+    "includedInAnalysis": true
+  },
+  "qualityCheck": {
+    "passed": true,
+    "errors": [],
+    "warnings": [
+      "文字数が少なすぎます（1539字 < 10,000字）",
+      "引用が少なすぎます（16件）。より多くの具体例を引用してください"
+    ],
+    "stats": {
+      "charCount": 1539,
+      "citationCount": 16,
+      "forbiddenPhrases": []
+    }
+  }
+}
