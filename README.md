@@ -62,8 +62,7 @@ DEFAULT_MODEL=google/gemini-2.0-flash-exp
 MAX_OUTPUT_TOKENS=64000
 ```
 
-OpenRouter API Key取得:
-- [OpenRouter](https://openrouter.ai/)
+配布されたOpenRouterのAPIキーを.env.localに入れると動作する
 
 ---
 
@@ -84,6 +83,7 @@ npm run analyze -- bill-of-lading --auto-hypotheses
 ```
 
 このモードでは:
+
 1. トークン数上位5件のセッションをサンプリング
 2. LLMに「検証すべき仮説」を抽出させる
 3. その仮説を使って本分析を実行
@@ -195,6 +195,7 @@ reports/
 ```
 
 レポート構成:
+
 - エグゼクティブサマリー
 - 仮説検証結果（各仮説ごと）
 - 新たなインサイト
@@ -205,7 +206,7 @@ reports/
 ## 🔧 技術スタック
 
 - **言語**: TypeScript 5.7
-- **LLM**: Google Gemini 2.0 Flash Exp（長文脈対応）
+- **LLM**: OpenRouterに対応するLLM
 - **データ**: CSV（csv-parse）
 - **環境変数**: dotenv
 
